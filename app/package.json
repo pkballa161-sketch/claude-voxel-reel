@@ -1,0 +1,17 @@
+{
+  "name": "motion-as-code-reel",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "vo": "bun scripts/gen_vo.ts",
+    "mix": "bun scripts/mix_audio.ts",
+    "render": "bun scripts/render.ts",
+    "stills": "bun scripts/render.ts stills",
+    "preview": "bun scripts/serve.ts"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^1.1.1",
+    "kokoro-js": "^1.2.1",
+    "sharp": "^0.34.5"
+  }
+}

@@ -1,0 +1,15 @@
+node_modules/
+app/out/
+out/chunks/
+out/wip/
+out/wip2/
+out/seq/
+out/*.log
+out/sheet*.png
+out/picture.mp4
+out/video.mp4
+.DS_Store
+out/motion-as-code.mp4
+out/mix.wav
+out/loop-preview.gif
+out/still-*.png

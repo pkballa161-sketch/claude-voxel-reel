@@ -13,3 +13,6 @@ out/motion-as-code.mp4
 out/mix.wav
 out/loop-preview.gif
 out/still-*.png
+out/cut/
+out/*.png
+out/picture.mp4
